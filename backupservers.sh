@@ -10,6 +10,7 @@ for D in servers/*; do
         tar -zcvf $unproccessed_server_name/UserData/Backup/data-$day.tar.gz -c $unproccessed_server_name/data/*
         tar -zcvf $unproccessed_server_name/UserData/Backup/Mods-$day.tar.gz -c $unproccessed_server_name/Mods/*
         tar -zcvf $unproccessed_server_name/UserData/Backup/Configuration-$day.tar.gz -c $unproccessed_server_name/UserData/Configuration/*
+        tar -zcvf $unproccessed_server_name/UserData/Backup/Logs-$day.tar.gz -c $unproccessed_server_name/UserData/Logs/*
         echo "$server_name Backed up successfully."
     fi
 done
