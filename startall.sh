@@ -1,6 +1,6 @@
 #!/bin/bash
 day=$(date +%A)
-echo "Restarting All Servers..."
+echo "Starting All Servers..."
 for D in servers/*; do
     if [ -d "${D}" ]; then
         unproccessed_server_name=${D}
