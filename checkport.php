@@ -3,7 +3,7 @@ error_reporting(0);
 $port = $argv[1];
 $socket = stream_socket_server("udp://127.0.0.1:$port", $errno, $errstr, STREAM_SERVER_BIND);
 if (!$socket) {
-    die('yes');
+    exit('yes');
 } else {
 	die('no');
 }
