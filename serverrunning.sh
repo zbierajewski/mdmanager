@@ -1,3 +1,4 @@
+#!/bin/bash
 if tmux ls | grep -q $1
   then echo "Server is running..."
   else echo "Server is not running..."
