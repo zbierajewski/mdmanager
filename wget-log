@@ -1,0 +1,12 @@
+--2013-08-05 15:07:16--  http://backup:*password*@192.168.0.21/uscs2/Backup/Configuration-Monday.tar.gz
+Connecting to 192.168.0.21:80... connected.
+HTTP request sent, awaiting response... 401 Unauthorized
+Reusing existing connection to 192.168.0.21:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 3244 (3.2K) [application/octet-stream]
+Saving to: `Configuration-Monday.tar.gz'
+
+     0K ...                                                   100% 3.16M=0.001s
+
+2013-08-05 15:07:16 (3.16 MB/s) - `Configuration-Monday.tar.gz' saved [3244/3244]
+
